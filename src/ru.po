@@ -1,0 +1,238 @@
+# LANGUAGE translation for Picture Shooter for the following files:
+# res://scenes/menu/main_menu_new.tscn
+# res://scenes/menu/mobile_hud_editor.tscn
+# res://scenes/menu/mods_menu.tscn
+# res://scenes/menu/pause.tscn
+# res://scenes/menu/settings.tscn
+# res://scripts/menu/settings.gd
+# res://scripts/menu/music_player.gd
+# res://scenes/menu/death_screen.tscn
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Picture Shooter\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+
+#: scenes/menu/main_menu_new.tscn
+msgid "MAIN_MENU_PLAY"
+msgstr "ИГРАТЬ"
+
+#: scenes/menu/main_menu_new.tscn scenes/menu/pause.tscn
+msgid "MAIN_MENU_SETTINGS"
+msgstr "НАСТРОЙКИ"
+
+#: scenes/menu/main_menu_new.tscn
+msgid "MAIN_MENU_MODS"
+msgstr "МОДЫ"
+
+#: scenes/menu/main_menu_new.tscn
+msgid "MAIN_MENU_GUIDE"
+msgstr "КАК ИГРАТЬ?"
+
+#: scenes/menu/main_menu_new.tscn scenes/menu/pause.tscn
+msgid "MAIN_MENU_EXIT"
+msgstr "ВЫЙТИ"
+
+#: scenes/menu/mobile_hud_editor.tscn
+msgid "UI_SAVE"
+msgstr "СОХРАНИТЬ"
+
+#: scenes/menu/mobile_hud_editor.tscn
+msgid "UI_RESET"
+msgstr "СБРОСИТЬ"
+
+#: scenes/menu/mobile_hud_editor.tscn scenes/menu/mods_menu.tscn
+#: scenes/menu/settings.tscn
+msgid "UI_BACK"
+msgstr "НАЗАД"
+
+#: scenes/menu/mobile_hud_editor.tscn
+msgid "UI_MOBILE_TRANSPARENCY"
+msgstr "ПРОЗРАЧНОСТЬ"
+
+#: scenes/menu/mods_menu.tscn
+msgid "UI_MODS"
+msgstr "МОДЫ"
+
+#: scenes/menu/mods_menu.tscn
+msgid "UI_NO_MODS_FOUND"
+msgstr "МОДЫ НЕ НАЙДЕНЫ"
+
+#: scenes/menu/pause.tscn
+msgid "UI_PAUSE_CONTINUE"
+msgstr "ПРОДОЛЖИТЬ"
+
+#: scenes/menu/pause.tscn
+msgid "UI_GO_TO_MAIN_MENU"
+msgstr "ГЛАВНОЕ МЕНЮ"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS"
+msgstr "НАСТРОЙКИ"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_GAME_LABEL"
+msgstr ""
+"ИГРА\n"
+"-----------"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_BLOOD_LIMIT"
+msgstr "Лимит крови"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_FOV_VALUE"
+msgstr "Поле зрения"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_CURRENT_LOCALE"
+msgstr "Язык"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_VIDEO_LABEL"
+msgstr ""
+"ВИДЕО\n"
+"-------------"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_USE_FULLSCREEN"
+msgstr "Полный экран"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_USE_VSYNC"
+msgstr "Верт. синхронизация"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_PIXELATION_FACTOR"
+msgstr "Уровень пикселизации"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_ANISOTROPIC_F"
+msgstr "Анизотропная фильтрация"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_SOUND_LABEL"
+msgstr ""
+"ЗВУК\n"
+"-----------"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_SOUND_MASTER"
+msgstr "Мастер"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_SOUND_SFX"
+msgstr "Звуковые эффекты"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_SOUND_MUSIC"
+msgstr "Музыка"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_CHEATS_LABEL"
+msgstr ""
+"ЧИТЫ\n"
+"------------"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_CHEATS_GOD"
+msgstr "Режим бога"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_CONTROLS_LABEL"
+msgstr ""
+"УПРАВЛЕНИЕ\n"
+"---------------------"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_CONTROLS_SENS"
+msgstr "Чувствительность"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_CONTROLS_PCWS"
+msgstr "Переключать оружие колесиком"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_MOBILE_CONTROLS"
+msgstr "НАСТРОИТЬ СЕНСОРНОЕ УПРАВЛЕНИЕ"
+
+#: scripts/menu/settings.gd:107
+msgid "UI_SETTINGS_MOVEMENT_GO_FORWARD"
+msgstr "Идти вперед"
+
+#: scripts/menu/settings.gd:108
+msgid "UI_SETTINGS_MOVEMENT_GO_BACKWARD"
+msgstr "Идти назад"
+
+#: scripts/menu/settings.gd:109
+msgid "UI_SETTINGS_MOVEMENT_GO_LEFT"
+msgstr "Идти влево"
+
+#: scripts/menu/settings.gd:110
+msgid "UI_SETTINGS_MOVEMENT_GO_RIGHT"
+msgstr "Идти вправо"
+
+#: scripts/menu/settings.gd:111
+msgid "UI_SETTINGS_MOVEMENT_JUMP"
+msgstr "Прыжок"
+
+#: scripts/menu/settings.gd:112
+msgid "UI_SETTINGS_MOVEMENT_CROUCH"
+msgstr "Присяд  / слайд"
+
+#: scripts/menu/settings.gd:113
+msgid "UI_SETTINGS_MOVEMENT_DASH"
+msgstr "Рывок"
+
+#: scripts/menu/settings.gd:114
+msgid "UI_SETTINGS_WEAPON_FIRE"
+msgstr "Стрелять"
+
+#: scripts/menu/settings.gd:115
+msgid "UI_SETTINGS_WEAPON_RELOAD"
+msgstr "Перезарядка"
+
+#: scripts/menu/settings.gd:116
+msgid "UI_SETTINGS_WEAPON_SHOTGUN"
+msgstr "Дробовик"
+
+#: scripts/menu/settings.gd:117
+msgid "UI_SETTINGS_WEAPON_DEAGLE"
+msgstr "Дигл"
+
+#: scripts/menu/settings.gd:118
+msgid "UI_SETTINGS_WEAPON_RIFLE"
+msgstr "Винтовка"
+
+#: scripts/menu/settings.gd:119
+msgid "UI_SETTINGS_WEAPON_RPG"
+msgstr "РПГ"
+
+#: scripts/menu/music_player.gd:20 scripts/menu/music_player.gd:29
+msgid "UI_MUSICPLAYER_NO_MUSIC"
+msgstr "Нет музыки"
+
+#: scenes/menu/death_screen.tscn
+msgid "UI_DEATH_SCREEN_TEXT"
+msgstr ""
+"ВЫ УМЕРЛИ!\n"
+"НАЖМИТЕ КНОПКУ ПРЫЖКА,\n"
+"ЧТОБЫ ПЕРЕЙТИ В ГЛАВНОЕ МЕНЮ"
+
+#: scenes/menu/player_base_ui.tscn
+msgid "UI_CURRENT_WAVE"
+msgstr "ВОЛНА: %s"
+
+msgid "Picture Shooter"
+msgstr "Picture Shooter"

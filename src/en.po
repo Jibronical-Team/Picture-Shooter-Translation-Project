@@ -1,0 +1,239 @@
+# LANGUAGE translation for Picture Shooter for the following files:
+# res://scenes/menu/main_menu_new.tscn
+# res://scenes/menu/mobile_hud_editor.tscn
+# res://scenes/menu/mods_menu.tscn
+# res://scenes/menu/pause.tscn
+# res://scenes/menu/settings.tscn
+# res://scripts/menu/settings.gd
+# res://scripts/menu/music_player.gd
+# res://scenes/menu/death_screen.tscn
+# res://scenes/menu/player_base_ui.tscn
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Picture Shooter\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+
+#: scenes/menu/main_menu_new.tscn
+msgid "MAIN_MENU_PLAY"
+msgstr "PLAY"
+
+#: scenes/menu/main_menu_new.tscn scenes/menu/pause.tscn
+msgid "MAIN_MENU_SETTINGS"
+msgstr "SETTINGS"
+
+#: scenes/menu/main_menu_new.tscn
+msgid "MAIN_MENU_MODS"
+msgstr "MODS"
+
+#: scenes/menu/main_menu_new.tscn
+msgid "MAIN_MENU_GUIDE"
+msgstr "HOW TO PLAY?"
+
+#: scenes/menu/main_menu_new.tscn scenes/menu/pause.tscn
+msgid "MAIN_MENU_EXIT"
+msgstr "EXIT"
+
+#: scenes/menu/mobile_hud_editor.tscn
+msgid "UI_SAVE"
+msgstr "SAVE"
+
+#: scenes/menu/mobile_hud_editor.tscn
+msgid "UI_RESET"
+msgstr "RESET"
+
+#: scenes/menu/mobile_hud_editor.tscn scenes/menu/mods_menu.tscn
+#: scenes/menu/settings.tscn
+msgid "UI_BACK"
+msgstr "BACK"
+
+#: scenes/menu/mobile_hud_editor.tscn
+msgid "UI_MOBILE_TRANSPARENCY"
+msgstr "TRANSPARENCY"
+
+#: scenes/menu/mods_menu.tscn
+msgid "UI_MODS"
+msgstr "MODS"
+
+#: scenes/menu/mods_menu.tscn
+msgid "UI_NO_MODS_FOUND"
+msgstr "NO MODS FOUND"
+
+#: scenes/menu/pause.tscn
+msgid "UI_PAUSE_CONTINUE"
+msgstr "CONTINUE"
+
+#: scenes/menu/pause.tscn
+msgid "UI_GO_TO_MAIN_MENU"
+msgstr "MAIN MENU"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS"
+msgstr "SETTINGS"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_GAME_LABEL"
+msgstr ""
+"GAME\n"
+"-----------"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_BLOOD_LIMIT"
+msgstr "Blood Limit"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_FOV_VALUE"
+msgstr "FOV"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_CURRENT_LOCALE"
+msgstr "Language"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_VIDEO_LABEL"
+msgstr ""
+"VIDEO\n"
+"------------"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_USE_FULLSCREEN"
+msgstr "Fullscreen"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_USE_VSYNC"
+msgstr "Vsync"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_PIXELATION_FACTOR"
+msgstr "Pixelation Amount"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_ANISOTROPIC_F"
+msgstr "Anisotropic Filtering"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_SOUND_LABEL"
+msgstr ""
+"SOUND\n"
+"------------"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_SOUND_MASTER"
+msgstr "Master"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_SOUND_SFX"
+msgstr "SFX"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_SOUND_MUSIC"
+msgstr "Music"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_CHEATS_LABEL"
+msgstr ""
+"CHEATS\n"
+"------------"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_CHEATS_GOD"
+msgstr "God Mode"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_CONTROLS_LABEL"
+msgstr ""
+"CONTROLS\n"
+"----------------"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_CONTROLS_SENS"
+msgstr "Sensitivity"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_CONTROLS_PCWS"
+msgstr "Use scroll wheel to switch weapons"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_MOBILE_CONTROLS"
+msgstr "CHANGE MOBILE CONTROLS"
+
+#: scripts/menu/settings.gd:107
+msgid "UI_SETTINGS_MOVEMENT_GO_FORWARD"
+msgstr "Forward"
+
+#: scripts/menu/settings.gd:108
+msgid "UI_SETTINGS_MOVEMENT_GO_BACKWARD"
+msgstr "Back"
+
+#: scripts/menu/settings.gd:109
+msgid "UI_SETTINGS_MOVEMENT_GO_LEFT"
+msgstr "Left"
+
+#: scripts/menu/settings.gd:110
+msgid "UI_SETTINGS_MOVEMENT_GO_RIGHT"
+msgstr "Right"
+
+#: scripts/menu/settings.gd:111
+msgid "UI_SETTINGS_MOVEMENT_JUMP"
+msgstr "Jump"
+
+#: scripts/menu/settings.gd:112
+msgid "UI_SETTINGS_MOVEMENT_CROUCH"
+msgstr "Crouch  / Slide"
+
+#: scripts/menu/settings.gd:113
+msgid "UI_SETTINGS_MOVEMENT_DASH"
+msgstr "Dash"
+
+#: scripts/menu/settings.gd:114
+msgid "UI_SETTINGS_WEAPON_FIRE"
+msgstr "Shoot"
+
+#: scripts/menu/settings.gd:115
+msgid "UI_SETTINGS_WEAPON_RELOAD"
+msgstr "Reload"
+
+#: scripts/menu/settings.gd:116
+msgid "UI_SETTINGS_WEAPON_SHOTGUN"
+msgstr "Shotgun"
+
+#: scripts/menu/settings.gd:117
+msgid "UI_SETTINGS_WEAPON_DEAGLE"
+msgstr "Deagle"
+
+#: scripts/menu/settings.gd:118
+msgid "UI_SETTINGS_WEAPON_RIFLE"
+msgstr "Rifle"
+
+#: scripts/menu/settings.gd:119
+msgid "UI_SETTINGS_WEAPON_RPG"
+msgstr "RPG"
+
+#: scripts/menu/music_player.gd:20 scripts/menu/music_player.gd:29
+msgid "UI_MUSICPLAYER_NO_MUSIC"
+msgstr "No music detected"
+
+#: scenes/menu/death_screen.tscn
+msgid "UI_DEATH_SCREEN_TEXT"
+msgstr ""
+"YOU DIED!\n"
+"­­PRESS JUMP BUTTON TO\n"
+"RETURN TO THE MAIN MENU"
+
+#: scenes/menu/player_base_ui.tscn
+msgid "UI_CURRENT_WAVE"
+msgstr "WAVE: %s"
+
+msgid "Picture Shooter"
+msgstr "Picture Shooter"
