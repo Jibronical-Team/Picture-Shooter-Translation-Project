@@ -37,6 +37,10 @@ msgstr "SETTINGS"
 msgid "MAIN_MENU_MODS"
 msgstr "MODS"
 
+#: scenes/menu/main_menu_new.tscn scenes/menu/pause.tscn
+msgid "MAIN_MENU_CUSTOM"
+msgstr "CUSTOM"
+
 #: scenes/menu/main_menu_new.tscn
 msgid "MAIN_MENU_GUIDE"
 msgstr "HOW TO PLAY?"
@@ -54,7 +58,7 @@ msgid "UI_RESET"
 msgstr "RESET"
 
 #: scenes/menu/mobile_hud_editor.tscn scenes/menu/mods_menu.tscn
-#: scenes/menu/settings.tscn
+#: scenes/menu/settings.tscn scenes/menu/custom_menu.tscn
 msgid "UI_BACK"
 msgstr "BACK"
 
@@ -168,59 +172,59 @@ msgstr "Use scroll wheel to switch weapons"
 msgid "UI_SETTINGS_MOBILE_CONTROLS"
 msgstr "CHANGE MOBILE CONTROLS"
 
-#: scripts/menu/settings.gd:107
+#: scripts/menu/settings.gd:108
 msgid "UI_SETTINGS_MOVEMENT_GO_FORWARD"
 msgstr "Forward"
 
-#: scripts/menu/settings.gd:108
+#: scripts/menu/settings.gd:109
 msgid "UI_SETTINGS_MOVEMENT_GO_BACKWARD"
 msgstr "Back"
 
-#: scripts/menu/settings.gd:109
+#: scripts/menu/settings.gd:110
 msgid "UI_SETTINGS_MOVEMENT_GO_LEFT"
 msgstr "Left"
 
-#: scripts/menu/settings.gd:110
+#: scripts/menu/settings.gd:111
 msgid "UI_SETTINGS_MOVEMENT_GO_RIGHT"
 msgstr "Right"
 
-#: scripts/menu/settings.gd:111
+#: scripts/menu/settings.gd:112
 msgid "UI_SETTINGS_MOVEMENT_JUMP"
 msgstr "Jump"
 
-#: scripts/menu/settings.gd:112
+#: scripts/menu/settings.gd:113
 msgid "UI_SETTINGS_MOVEMENT_CROUCH"
 msgstr "Crouch  / Slide"
 
-#: scripts/menu/settings.gd:113
+#: scripts/menu/settings.gd:114
 msgid "UI_SETTINGS_MOVEMENT_DASH"
 msgstr "Dash"
 
-#: scripts/menu/settings.gd:114
+#: scripts/menu/settings.gd:115
 msgid "UI_SETTINGS_WEAPON_FIRE"
 msgstr "Shoot"
 
-#: scripts/menu/settings.gd:115
+#: scripts/menu/settings.gd:116
 msgid "UI_SETTINGS_WEAPON_RELOAD"
 msgstr "Reload"
 
-#: scripts/menu/settings.gd:116
+#: scripts/menu/settings.gd:117
 msgid "UI_SETTINGS_WEAPON_SHOTGUN"
 msgstr "Shotgun"
 
-#: scripts/menu/settings.gd:117
+#: scripts/menu/settings.gd:118
 msgid "UI_SETTINGS_WEAPON_DEAGLE"
 msgstr "Deagle"
 
-#: scripts/menu/settings.gd:118
+#: scripts/menu/settings.gd:119
 msgid "UI_SETTINGS_WEAPON_RIFLE"
 msgstr "Rifle"
 
-#: scripts/menu/settings.gd:119
+#: scripts/menu/settings.gd:120
 msgid "UI_SETTINGS_WEAPON_RPG"
 msgstr "RPG"
 
-#: scripts/menu/music_player.gd:20 scripts/menu/music_player.gd:29
+#: scripts/menu/music_player.gd:42 scripts/menu/music_player.gd:65
 msgid "UI_MUSICPLAYER_NO_MUSIC"
 msgstr "No music detected"
 
@@ -234,6 +238,38 @@ msgstr ""
 #: scenes/menu/player_base_ui.tscn
 msgid "UI_CURRENT_WAVE"
 msgstr "WAVE: %s"
+
+#: scenes/menu/custom_menu.tscn
+msgid "UI_CUSTOMIZATION"
+msgstr "CUSTOM"
+
+#: scenes/menu/custom_menu.tscn
+msgid "UI_SPRITES"
+msgstr "SPRITES"
+
+#: scenes/menu/custom_menu.tscn
+msgid "UI_MUSIC"
+msgstr "MUSIC"
+
+#: scenes/menu/custom_menu.tscn
+msgid "UI_IMPORT"
+msgstr "IMPORT"
+
+#: scenes/menu/custom_menu.tscn
+msgid "UI_NO_MUSIC_FOUND"
+msgstr "NO MUSIC FILES FOUND"
+
+#: scenes/menu/custom_menu.tscn scripts/menu/sprites_edit_ingame.gd:254
+msgid "UI_DELETE_NON_SELECTED_BUTTON"
+msgstr "DELETE (Select an image)"
+
+#: scenes/menu/custom_menu.tscn
+msgid "UI_DELETE_ALL_BUTTON"
+msgstr "DELETE EVERYTHING"
+
+#: scripts/menu/sprites_edit_ingame.gd:237
+msgid "UI_DELETE_SELECTED_BUTTON"
+msgstr "DELETE SELECTED"
 
 msgid "Picture Shooter"
 msgstr "Picture Shooter"

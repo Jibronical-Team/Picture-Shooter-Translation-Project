@@ -36,6 +36,10 @@ msgstr "НАСТРОЙКИ"
 msgid "MAIN_MENU_MODS"
 msgstr "МОДЫ"
 
+#: scenes/menu/main_menu_new.tscn scenes/menu/pause.tscn
+msgid "MAIN_MENU_CUSTOM"
+msgstr "КАСТОМИЗАЦИЯ"
+
 #: scenes/menu/main_menu_new.tscn
 msgid "MAIN_MENU_GUIDE"
 msgstr "КАК ИГРАТЬ?"
@@ -53,7 +57,7 @@ msgid "UI_RESET"
 msgstr "СБРОСИТЬ"
 
 #: scenes/menu/mobile_hud_editor.tscn scenes/menu/mods_menu.tscn
-#: scenes/menu/settings.tscn
+#: scenes/menu/settings.tscn scenes/menu/custom_menu.tscn
 msgid "UI_BACK"
 msgstr "НАЗАД"
 
@@ -167,59 +171,59 @@ msgstr "Переключать оружие колесиком"
 msgid "UI_SETTINGS_MOBILE_CONTROLS"
 msgstr "НАСТРОИТЬ СЕНСОРНОЕ УПРАВЛЕНИЕ"
 
-#: scripts/menu/settings.gd:107
+#: scripts/menu/settings.gd:108
 msgid "UI_SETTINGS_MOVEMENT_GO_FORWARD"
 msgstr "Идти вперед"
 
-#: scripts/menu/settings.gd:108
+#: scripts/menu/settings.gd:109
 msgid "UI_SETTINGS_MOVEMENT_GO_BACKWARD"
 msgstr "Идти назад"
 
-#: scripts/menu/settings.gd:109
+#: scripts/menu/settings.gd:110
 msgid "UI_SETTINGS_MOVEMENT_GO_LEFT"
 msgstr "Идти влево"
 
-#: scripts/menu/settings.gd:110
+#: scripts/menu/settings.gd:111
 msgid "UI_SETTINGS_MOVEMENT_GO_RIGHT"
 msgstr "Идти вправо"
 
-#: scripts/menu/settings.gd:111
+#: scripts/menu/settings.gd:112
 msgid "UI_SETTINGS_MOVEMENT_JUMP"
 msgstr "Прыжок"
 
-#: scripts/menu/settings.gd:112
+#: scripts/menu/settings.gd:113
 msgid "UI_SETTINGS_MOVEMENT_CROUCH"
 msgstr "Присяд  / слайд"
 
-#: scripts/menu/settings.gd:113
+#: scripts/menu/settings.gd:114
 msgid "UI_SETTINGS_MOVEMENT_DASH"
 msgstr "Рывок"
 
-#: scripts/menu/settings.gd:114
+#: scripts/menu/settings.gd:115
 msgid "UI_SETTINGS_WEAPON_FIRE"
 msgstr "Стрелять"
 
-#: scripts/menu/settings.gd:115
+#: scripts/menu/settings.gd:116
 msgid "UI_SETTINGS_WEAPON_RELOAD"
 msgstr "Перезарядка"
 
-#: scripts/menu/settings.gd:116
+#: scripts/menu/settings.gd:117
 msgid "UI_SETTINGS_WEAPON_SHOTGUN"
 msgstr "Дробовик"
 
-#: scripts/menu/settings.gd:117
+#: scripts/menu/settings.gd:118
 msgid "UI_SETTINGS_WEAPON_DEAGLE"
 msgstr "Дигл"
 
-#: scripts/menu/settings.gd:118
+#: scripts/menu/settings.gd:119
 msgid "UI_SETTINGS_WEAPON_RIFLE"
 msgstr "Винтовка"
 
-#: scripts/menu/settings.gd:119
+#: scripts/menu/settings.gd:120
 msgid "UI_SETTINGS_WEAPON_RPG"
 msgstr "РПГ"
 
-#: scripts/menu/music_player.gd:20 scripts/menu/music_player.gd:29
+#: scripts/menu/music_player.gd:42 scripts/menu/music_player.gd:65
 msgid "UI_MUSICPLAYER_NO_MUSIC"
 msgstr "Нет музыки"
 
@@ -233,6 +237,38 @@ msgstr ""
 #: scenes/menu/player_base_ui.tscn
 msgid "UI_CURRENT_WAVE"
 msgstr "ВОЛНА: %s"
+
+#: scenes/menu/custom_menu.tscn
+msgid "UI_CUSTOMIZATION"
+msgstr "КАСТОМИЗАЦИЯ"
+
+#: scenes/menu/custom_menu.tscn
+msgid "UI_SPRITES"
+msgstr "СПРАЙТЫ"
+
+#: scenes/menu/custom_menu.tscn
+msgid "UI_MUSIC"
+msgstr "МУЗЫКА"
+
+#: scenes/menu/custom_menu.tscn
+msgid "UI_IMPORT"
+msgstr "ИМПОРТИРОВАТЬ"
+
+#: scenes/menu/custom_menu.tscn
+msgid "UI_NO_MUSIC_FOUND"
+msgstr "ФАЙЛЫ МУЗЫКИ НЕ НАЙДЕНЫ"
+
+#: scenes/menu/custom_menu.tscn scripts/menu/sprites_edit_ingame.gd:254
+msgid "UI_DELETE_NON_SELECTED_BUTTON"
+msgstr "УДАЛИТЬ (Выберите)"
+
+#: scenes/menu/custom_menu.tscn
+msgid "UI_DELETE_ALL_BUTTON"
+msgstr "УДАЛИТЬ ВСЕ"
+
+#: scripts/menu/sprites_edit_ingame.gd:237
+msgid "UI_DELETE_SELECTED_BUTTON"
+msgstr "УДАЛИТЬ ВЫБРАННОЕ"
 
 msgid "Picture Shooter"
 msgstr "Picture Shooter"

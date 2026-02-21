@@ -8,6 +8,8 @@
 # res://scripts/menu/music_player.gd
 # res://scenes/menu/death_screen.tscn
 # res://scenes/menu/player_base_ui.tscn
+# res://scenes/menu/custom_menu.tscn
+# res://scripts/menu/sprites_edit_ingame.gd
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -33,6 +35,11 @@ msgid "MAIN_MENU_MODS"
 msgstr ""
 
 #: scenes/menu/main_menu_new.tscn
+#: scenes/menu/pause.tscn
+msgid "MAIN_MENU_CUSTOM"
+msgstr ""
+
+#: scenes/menu/main_menu_new.tscn
 msgid "MAIN_MENU_GUIDE"
 msgstr ""
 
@@ -52,6 +59,7 @@ msgstr ""
 #: scenes/menu/mobile_hud_editor.tscn
 #: scenes/menu/mods_menu.tscn
 #: scenes/menu/settings.tscn
+#: scenes/menu/custom_menu.tscn
 msgid "UI_BACK"
 msgstr ""
 
@@ -155,60 +163,60 @@ msgstr ""
 msgid "UI_SETTINGS_MOBILE_CONTROLS"
 msgstr ""
 
-#: scripts/menu/settings.gd:107
+#: scripts/menu/settings.gd:108
 msgid "UI_SETTINGS_MOVEMENT_GO_FORWARD"
 msgstr ""
 
-#: scripts/menu/settings.gd:108
+#: scripts/menu/settings.gd:109
 msgid "UI_SETTINGS_MOVEMENT_GO_BACKWARD"
 msgstr ""
 
-#: scripts/menu/settings.gd:109
+#: scripts/menu/settings.gd:110
 msgid "UI_SETTINGS_MOVEMENT_GO_LEFT"
 msgstr ""
 
-#: scripts/menu/settings.gd:110
+#: scripts/menu/settings.gd:111
 msgid "UI_SETTINGS_MOVEMENT_GO_RIGHT"
 msgstr ""
 
-#: scripts/menu/settings.gd:111
+#: scripts/menu/settings.gd:112
 msgid "UI_SETTINGS_MOVEMENT_JUMP"
 msgstr ""
 
-#: scripts/menu/settings.gd:112
+#: scripts/menu/settings.gd:113
 msgid "UI_SETTINGS_MOVEMENT_CROUCH"
 msgstr ""
 
-#: scripts/menu/settings.gd:113
+#: scripts/menu/settings.gd:114
 msgid "UI_SETTINGS_MOVEMENT_DASH"
 msgstr ""
 
-#: scripts/menu/settings.gd:114
+#: scripts/menu/settings.gd:115
 msgid "UI_SETTINGS_WEAPON_FIRE"
 msgstr ""
 
-#: scripts/menu/settings.gd:115
+#: scripts/menu/settings.gd:116
 msgid "UI_SETTINGS_WEAPON_RELOAD"
 msgstr ""
 
-#: scripts/menu/settings.gd:116
+#: scripts/menu/settings.gd:117
 msgid "UI_SETTINGS_WEAPON_SHOTGUN"
 msgstr ""
 
-#: scripts/menu/settings.gd:117
+#: scripts/menu/settings.gd:118
 msgid "UI_SETTINGS_WEAPON_DEAGLE"
 msgstr ""
 
-#: scripts/menu/settings.gd:118
+#: scripts/menu/settings.gd:119
 msgid "UI_SETTINGS_WEAPON_RIFLE"
 msgstr ""
 
-#: scripts/menu/settings.gd:119
+#: scripts/menu/settings.gd:120
 msgid "UI_SETTINGS_WEAPON_RPG"
 msgstr ""
 
-#: scripts/menu/music_player.gd:20
-#: scripts/menu/music_player.gd:29
+#: scripts/menu/music_player.gd:42
+#: scripts/menu/music_player.gd:65
 msgid "UI_MUSICPLAYER_NO_MUSIC"
 msgstr ""
 
@@ -218,6 +226,39 @@ msgstr ""
 
 #: scenes/menu/player_base_ui.tscn
 msgid "UI_CURRENT_WAVE"
+msgstr ""
+
+#: scenes/menu/custom_menu.tscn
+msgid "UI_CUSTOMIZATION"
+msgstr ""
+
+#: scenes/menu/custom_menu.tscn
+msgid "UI_SPRITES"
+msgstr ""
+
+#: scenes/menu/custom_menu.tscn
+msgid "UI_MUSIC"
+msgstr ""
+
+#: scenes/menu/custom_menu.tscn
+msgid "UI_IMPORT"
+msgstr ""
+
+#: scenes/menu/custom_menu.tscn
+msgid "UI_NO_MUSIC_FOUND"
+msgstr ""
+
+#: scenes/menu/custom_menu.tscn
+#: scripts/menu/sprites_edit_ingame.gd:254
+msgid "UI_DELETE_NON_SELECTED_BUTTON"
+msgstr ""
+
+#: scenes/menu/custom_menu.tscn
+msgid "UI_DELETE_ALL_BUTTON"
+msgstr ""
+
+#: scripts/menu/sprites_edit_ingame.gd:237
+msgid "UI_DELETE_SELECTED_BUTTON"
 msgstr ""
 
 msgid "Picture Shooter"
