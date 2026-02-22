@@ -257,6 +257,14 @@ msgstr ""
 msgid "UI_DELETE_ALL_BUTTON"
 msgstr ""
 
+#: scripts/menu/sprites_edit_ingame.gd:51
+msgid "UI_WARNING_SKIN_CATEGORY_FULL_DELETE"
+msgstr ""
+
+#: scripts/menu/sprites_edit_ingame.gd:52
+msgid "UI_WARNING_SKIN_CATEGORY_CONFIRMATION_QUESTION"
+msgstr ""
+
 #: scripts/menu/sprites_edit_ingame.gd:237
 msgid "UI_DELETE_SELECTED_BUTTON"
 msgstr ""

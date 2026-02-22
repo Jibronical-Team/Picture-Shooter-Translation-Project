@@ -257,7 +257,9 @@ msgstr "IMPORT"
 
 #: scenes/menu/custom_menu.tscn
 msgid "UI_NO_MUSIC_FOUND"
-msgstr "NO MUSIC FILES FOUND"
+msgstr ""
+"NO MUSIC FILES FOUND.\n"
+"PRESS IMPORT TO ADD MUSIC"
 
 #: scenes/menu/custom_menu.tscn scripts/menu/sprites_edit_ingame.gd:254
 msgid "UI_DELETE_NON_SELECTED_BUTTON"
@@ -266,6 +268,14 @@ msgstr "DELETE (Select an image)"
 #: scenes/menu/custom_menu.tscn
 msgid "UI_DELETE_ALL_BUTTON"
 msgstr "DELETE EVERYTHING"
+
+#: scripts/menu/sprites_edit_ingame.gd:51
+msgid "UI_WARNING_SKIN_CATEGORY_FULL_DELETE"
+msgstr "SPRITE DELETION"
+
+#: scripts/menu/sprites_edit_ingame.gd:52
+msgid "UI_WARNING_SKIN_CATEGORY_CONFIRMATION_QUESTION"
+msgstr "YOU ARE GOING TO DELETE ALL SPRITES IN THIS CATEGORY"
 
 #: scripts/menu/sprites_edit_ingame.gd:237
 msgid "UI_DELETE_SELECTED_BUTTON"

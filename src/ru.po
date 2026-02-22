@@ -256,7 +256,10 @@ msgstr "ИМПОРТИРОВАТЬ"
 
 #: scenes/menu/custom_menu.tscn
 msgid "UI_NO_MUSIC_FOUND"
-msgstr "ФАЙЛЫ МУЗЫКИ НЕ НАЙДЕНЫ"
+msgstr ""
+"ФАЙЛЫ МУЗЫКИ НЕ НАЙДЕНЫ.\n"
+"НАЖМИТЕ \"ИМПОРТИРОВАТЬ\",\n"
+"ЧТОБЫ ДОБАВИТЬ МУЗЫКУ"
 
 #: scenes/menu/custom_menu.tscn scripts/menu/sprites_edit_ingame.gd:254
 msgid "UI_DELETE_NON_SELECTED_BUTTON"
@@ -265,6 +268,14 @@ msgstr "УДАЛИТЬ (Выберите)"
 #: scenes/menu/custom_menu.tscn
 msgid "UI_DELETE_ALL_BUTTON"
 msgstr "УДАЛИТЬ ВСЕ"
+
+#: scripts/menu/sprites_edit_ingame.gd:51
+msgid "UI_WARNING_SKIN_CATEGORY_FULL_DELETE"
+msgstr "УДАЛЕНИЕ СПРАЙТОВ"
+
+#: scripts/menu/sprites_edit_ingame.gd:52
+msgid "UI_WARNING_SKIN_CATEGORY_CONFIRMATION_QUESTION"
+msgstr "ВЫ СОБИРАЕТЕСЬ УДАЛИТЬ ВСЕ СПРАЙТЫ В КАТЕГОРИИ"
 
 #: scripts/menu/sprites_edit_ingame.gd:237
 msgid "UI_DELETE_SELECTED_BUTTON"
