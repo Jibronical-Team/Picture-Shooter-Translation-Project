@@ -7,6 +7,9 @@
 # res://scripts/menu/settings.gd
 # res://scripts/menu/music_player.gd
 # res://scenes/menu/death_screen.tscn
+# res://scenes/menu/player_base_ui.tscn
+# res://scenes/menu/custom_menu.tscn
+# res://scripts/menu/sprites_edit_ingame.gd
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -17,8 +20,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
-"Language-Team: Jibronical Team\n"
-"Language: ru\n"
+"Language-Team: Kiera_z\n"
+"Language: cn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,263 +29,263 @@ msgstr ""
 
 #: scenes/menu/main_menu_new.tscn
 msgid "MAIN_MENU_PLAY"
-msgstr "ИГРАТЬ"
+msgstr "开始游戏"
 
 #: scenes/menu/main_menu_new.tscn scenes/menu/pause.tscn
 msgid "MAIN_MENU_SETTINGS"
-msgstr "НАСТРОЙКИ"
+msgstr "设置"
 
 #: scenes/menu/main_menu_new.tscn
 msgid "MAIN_MENU_MODS"
-msgstr "МОДЫ"
+msgstr "模组"
 
 #: scenes/menu/main_menu_new.tscn scenes/menu/pause.tscn
 msgid "MAIN_MENU_CUSTOM"
-msgstr "КАСТОМИЗАЦИЯ"
+msgstr "外观"
 
 #: scenes/menu/main_menu_new.tscn
 msgid "MAIN_MENU_GUIDE"
-msgstr "КАК ИГРАТЬ?"
+msgstr "新手引导"
 
 #: scenes/menu/main_menu_new.tscn scenes/menu/pause.tscn
 msgid "MAIN_MENU_EXIT"
-msgstr "ВЫЙТИ"
+msgstr "退出"
 
 #: scenes/menu/mobile_hud_editor.tscn
 msgid "UI_SAVE"
-msgstr "СОХРАНИТЬ"
+msgstr "保存"
 
 #: scenes/menu/mobile_hud_editor.tscn
 msgid "UI_RESET"
-msgstr "СБРОСИТЬ"
+msgstr "重置"
 
 #: scenes/menu/mobile_hud_editor.tscn scenes/menu/mods_menu.tscn
 #: scenes/menu/settings.tscn scenes/menu/custom_menu.tscn
 msgid "UI_BACK"
-msgstr "НАЗАД"
+msgstr "返回"
 
 #: scenes/menu/mobile_hud_editor.tscn
 msgid "UI_MOBILE_TRANSPARENCY"
-msgstr "ПРОЗРАЧНОСТЬ"
+msgstr "透明度"
 
 #: scenes/menu/mods_menu.tscn
 msgid "UI_MODS"
-msgstr "МОДЫ"
+msgstr "模组"
 
 #: scenes/menu/mods_menu.tscn
 msgid "UI_NO_MODS_FOUND"
-msgstr "МОДЫ НЕ НАЙДЕНЫ"
+msgstr "未找到模组"
 
 #: scenes/menu/pause.tscn
 msgid "UI_PAUSE_CONTINUE"
-msgstr "ПРОДОЛЖИТЬ"
+msgstr "继续"
 
 #: scenes/menu/pause.tscn
 msgid "UI_GO_TO_MAIN_MENU"
-msgstr "ГЛАВНОЕ МЕНЮ"
+msgstr "主菜单"
 
 #: scenes/menu/settings.tscn
 msgid "UI_SETTINGS"
-msgstr "НАСТРОЙКИ"
+msgstr "设置"
 
 #: scenes/menu/settings.tscn
 msgid "UI_SETTINGS_GAME_LABEL"
 msgstr ""
-"ИГРА\n"
+"选项\n"
 "-----------"
 
 #: scenes/menu/settings.tscn
 msgid "UI_SETTINGS_BLOOD_LIMIT"
-msgstr "Лимит крови"
+msgstr "液体限制"
 
 #: scenes/menu/settings.tscn
 msgid "UI_SETTINGS_FOV_VALUE"
-msgstr "Поле зрения"
+msgstr "视野"
 
 #: scenes/menu/settings.tscn
 msgid "UI_SETTINGS_CURRENT_LOCALE"
-msgstr "Язык"
+msgstr "语言"
 
 #: scenes/menu/settings.tscn
 msgid "UI_SETTINGS_VIDEO_LABEL"
 msgstr ""
-"ВИДЕО\n"
+"图像\n"
 "-------------"
 
 #: scenes/menu/settings.tscn
 msgid "UI_SETTINGS_USE_FULLSCREEN"
-msgstr "Полный экран"
+msgstr "全屏"
 
 #: scenes/menu/settings.tscn
 msgid "UI_SETTINGS_USE_VSYNC"
-msgstr "Верт. синхронизация"
+msgstr "垂直同步"
 
 #: scenes/menu/settings.tscn
 msgid "UI_SETTINGS_PIXELATION_FACTOR"
-msgstr "Уровень пикселизации"
+msgstr "像素化程度"
 
 #: scenes/menu/settings.tscn
 msgid "UI_SETTINGS_ANISOTROPIC_F"
-msgstr "Анизотропная фильтрация"
+msgstr "各向异性过滤"
 
 #: scenes/menu/settings.tscn
 msgid "UI_SETTINGS_SOUND_LABEL"
 msgstr ""
-"ЗВУК\n"
+"声音\n"
 "-----------"
 
 #: scenes/menu/settings.tscn
 msgid "UI_SETTINGS_SOUND_MASTER"
-msgstr "Мастер"
+msgstr "总音量"
 
 #: scenes/menu/settings.tscn
 msgid "UI_SETTINGS_SOUND_SFX"
-msgstr "Звуковые эффекты"
+msgstr "音效"
 
 #: scenes/menu/settings.tscn
 msgid "UI_SETTINGS_SOUND_MUSIC"
-msgstr "Музыка"
+msgstr "音乐"
 
 #: scenes/menu/settings.tscn
 msgid "UI_SETTINGS_CHEATS_LABEL"
 msgstr ""
-"ЧИТЫ\n"
+"辅助功能\n"
 "------------"
 
 #: scenes/menu/settings.tscn
 msgid "UI_SETTINGS_CHEATS_GOD"
-msgstr "Режим бога"
+msgstr "无敌模式"
 
 #: scenes/menu/settings.tscn
 msgid "UI_SETTINGS_CONTROLS_LABEL"
 msgstr ""
-"УПРАВЛЕНИЕ\n"
+"控制\n"
 "---------------------"
 
 #: scenes/menu/settings.tscn
 msgid "UI_SETTINGS_CONTROLS_SENS"
-msgstr "Чувствительность"
+msgstr "灵敏度"
 
 #: scenes/menu/settings.tscn
 msgid "UI_SETTINGS_CONTROLS_PCWS"
-msgstr "Переключать оружие колесиком"
+msgstr "鼠标滚轮切换武器"
 
 #: scenes/menu/settings.tscn
 msgid "UI_SETTINGS_MOBILE_CONTROLS"
-msgstr "НАСТРОИТЬ СЕНСОРНОЕ УПРАВЛЕНИЕ"
+msgstr "自定义触控"
 
 #: scripts/menu/settings.gd:108
 msgid "UI_SETTINGS_MOVEMENT_GO_FORWARD"
-msgstr "Идти вперед"
+msgstr "向前"
 
 #: scripts/menu/settings.gd:109
 msgid "UI_SETTINGS_MOVEMENT_GO_BACKWARD"
-msgstr "Идти назад"
+msgstr "向后"
 
 #: scripts/menu/settings.gd:110
 msgid "UI_SETTINGS_MOVEMENT_GO_LEFT"
-msgstr "Идти влево"
+msgstr "向左"
 
 #: scripts/menu/settings.gd:111
 msgid "UI_SETTINGS_MOVEMENT_GO_RIGHT"
-msgstr "Идти вправо"
+msgstr "向右"
 
 #: scripts/menu/settings.gd:112
 msgid "UI_SETTINGS_MOVEMENT_JUMP"
-msgstr "Прыжок"
+msgstr "跳跃"
 
 #: scripts/menu/settings.gd:113
 msgid "UI_SETTINGS_MOVEMENT_CROUCH"
-msgstr "Присяд  / слайд"
+msgstr "滑铲"
 
 #: scripts/menu/settings.gd:114
 msgid "UI_SETTINGS_MOVEMENT_DASH"
-msgstr "Рывок"
+msgstr "冲刺"
 
 #: scripts/menu/settings.gd:115
 msgid "UI_SETTINGS_WEAPON_FIRE"
-msgstr "Стрелять"
+msgstr "射击"
 
 #: scripts/menu/settings.gd:116
 msgid "UI_SETTINGS_WEAPON_RELOAD"
-msgstr "Перезарядка"
+msgstr "换弹"
 
 #: scripts/menu/settings.gd:117
 msgid "UI_SETTINGS_WEAPON_SHOTGUN"
-msgstr "Дробовик"
+msgstr "霰弹枪"
 
 #: scripts/menu/settings.gd:118
 msgid "UI_SETTINGS_WEAPON_DEAGLE"
-msgstr "Дигл"
+msgstr "沙漠之鹰"
 
 #: scripts/menu/settings.gd:119
 msgid "UI_SETTINGS_WEAPON_RIFLE"
-msgstr "Винтовка"
+msgstr "步枪"
 
 #: scripts/menu/settings.gd:120
 msgid "UI_SETTINGS_WEAPON_RPG"
-msgstr "РПГ"
+msgstr "RPG"
 
 #: scripts/menu/music_player.gd:35 scripts/menu/music_player.gd:55
 msgid "UI_MUSICPLAYER_NO_MUSIC"
-msgstr "Нет музыки"
+msgstr "无音乐"
 
 #: scenes/menu/death_screen.tscn
 msgid "UI_DEATH_SCREEN_TEXT"
 msgstr ""
-"ВЫ УМЕРЛИ!\n"
-"НАЖМИТЕ КНОПКУ ПРЫЖКА,\n"
-"ЧТОБЫ ПЕРЕЙТИ В ГЛАВНОЕ МЕНЮ"
+"你输了!\n"
+"请按跳跃键\n"
+"返回主菜单"
 
 #: scenes/menu/player_base_ui.tscn
 msgid "UI_CURRENT_WAVE"
-msgstr "ВОЛНА: %s"
+msgstr "第 %s 波"
 
 #: scenes/menu/custom_menu.tscn
 msgid "UI_CUSTOMIZATION"
-msgstr "КАСТОМИЗАЦИЯ"
+msgstr "自定义"
 
 #: scenes/menu/custom_menu.tscn
 msgid "UI_SPRITES"
-msgstr "СПРАЙТЫ"
+msgstr "自定义图像"
 
 #: scenes/menu/custom_menu.tscn
 msgid "UI_MUSIC"
-msgstr "МУЗЫКА"
+msgstr "音乐"
 
 #: scenes/menu/custom_menu.tscn
 msgid "UI_CUSTOM_ADD"
-msgstr " + ИМПОРТИРОВАТЬ "
+msgstr " + 导入 "
 
 #: scenes/menu/custom_menu.tscn
 msgid "UI_NO_MUSIC_FOUND"
 msgstr ""
-"ФАЙЛЫ МУЗЫКИ НЕ НАЙДЕНЫ.\n"
-"НАЖМИТЕ \"ИМПОРТИРОВАТЬ\",\n"
-"ЧТОБЫ ДОБАВИТЬ МУЗЫКУ"
+"未找到音乐文件。\n"
+"请点击“导入”，\n"
+"添加音乐"
 
 #: scenes/menu/custom_menu.tscn scripts/menu/sprites_edit_ingame.gd:28
 msgid "UI_DELETE_NON_SELECTED_BUTTON"
-msgstr "УДАЛИТЬ (Выберите)"
+msgstr "删除所选"
 
 #: scenes/menu/custom_menu.tscn
 msgid "UI_DELETE_ALL_BUTTON"
-msgstr "УДАЛИТЬ ВСЕ"
+msgstr "全部删除"
 
 #: scripts/menu/sprites_edit_ingame.gd:26
 msgid "UI_DELETE_SELECTED_BUTTON"
-msgstr "УДАЛИТЬ ВЫБРАННОЕ"
+msgstr "删除选中"
 
 #: scripts/menu/sprites_edit_ingame.gd:250
 msgid "UI_WARNING_SKIN_CATEGORY_FULL_DELETE"
-msgstr "УДАЛЕНИЕ СПРАЙТОВ"
+msgstr "删除精灵"
 
 #: scripts/menu/sprites_edit_ingame.gd:251
 msgid "UI_WARNING_SKIN_CATEGORY_CONFIRMATION_QUESTION"
-msgstr "ВЫ СОБИРАЕТЕСЬ УДАЛИТЬ ВСЕ СПРАЙТЫ В КАТЕГОРИИ"
+msgstr "您将要删除该分类中的所有精灵"
 
 msgid "Picture Shooter"
-msgstr "Picture Shooter"
+msgstr "图片猎手 Picture Shooter"
 
 #~ msgid "UI_IMPORT"
-#~ msgstr "ИМПОРТИРОВАТЬ"
+#~ msgstr "导入"

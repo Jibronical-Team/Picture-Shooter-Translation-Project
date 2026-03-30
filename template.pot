@@ -215,8 +215,8 @@ msgstr ""
 msgid "UI_SETTINGS_WEAPON_RPG"
 msgstr ""
 
-#: scripts/menu/music_player.gd:42
-#: scripts/menu/music_player.gd:65
+#: scripts/menu/music_player.gd:35
+#: scripts/menu/music_player.gd:55
 msgid "UI_MUSICPLAYER_NO_MUSIC"
 msgstr ""
 
@@ -241,7 +241,7 @@ msgid "UI_MUSIC"
 msgstr ""
 
 #: scenes/menu/custom_menu.tscn
-msgid "UI_IMPORT"
+msgid "UI_CUSTOM_ADD"
 msgstr ""
 
 #: scenes/menu/custom_menu.tscn
@@ -249,7 +249,7 @@ msgid "UI_NO_MUSIC_FOUND"
 msgstr ""
 
 #: scenes/menu/custom_menu.tscn
-#: scripts/menu/sprites_edit_ingame.gd:254
+#: scripts/menu/sprites_edit_ingame.gd:28
 msgid "UI_DELETE_NON_SELECTED_BUTTON"
 msgstr ""
 
@@ -257,16 +257,16 @@ msgstr ""
 msgid "UI_DELETE_ALL_BUTTON"
 msgstr ""
 
-#: scripts/menu/sprites_edit_ingame.gd:51
+#: scripts/menu/sprites_edit_ingame.gd:26
+msgid "UI_DELETE_SELECTED_BUTTON"
+msgstr ""
+
+#: scripts/menu/sprites_edit_ingame.gd:250
 msgid "UI_WARNING_SKIN_CATEGORY_FULL_DELETE"
 msgstr ""
 
-#: scripts/menu/sprites_edit_ingame.gd:52
+#: scripts/menu/sprites_edit_ingame.gd:251
 msgid "UI_WARNING_SKIN_CATEGORY_CONFIRMATION_QUESTION"
-msgstr ""
-
-#: scripts/menu/sprites_edit_ingame.gd:237
-msgid "UI_DELETE_SELECTED_BUTTON"
 msgstr ""
 
 msgid "Picture Shooter"
