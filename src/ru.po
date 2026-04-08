@@ -118,12 +118,32 @@ msgid "UI_SETTINGS_USE_VSYNC"
 msgstr "Верт. синхронизация"
 
 #: scenes/menu/settings.tscn
-msgid "UI_SETTINGS_PIXELATION_FACTOR"
-msgstr "Уровень пикселизации"
-
-#: scenes/menu/settings.tscn
 msgid "UI_SETTINGS_ANISOTROPIC_F"
 msgstr "Анизотропная фильтрация"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_PC_RESOLUTION"
+msgstr "Разрешение"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_ANDROID_RESOLUTION"
+msgstr "Качество рендера"
+
+#: scenes/menu/settings.tscn
+msgid "UI_ANDROID_RENDER_HIGH_QUALITY"
+msgstr "Высокое"
+
+#: scenes/menu/settings.tscn
+msgid "UI_ANDROID_RENDER_MEDIUM_QUALITY"
+msgstr "Среднее"
+
+#: scenes/menu/settings.tscn
+msgid "UI_ANDROID_RENDER_LOW_QUALITY"
+msgstr "Низкое"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_RESOLUTION_UI_NOTE"
+msgstr "Эта настройка не влияет на качество интерфейса."
 
 #: scenes/menu/settings.tscn
 msgid "UI_SETTINGS_SOUND_LABEL"
@@ -283,6 +303,9 @@ msgstr "ВЫ СОБИРАЕТЕСЬ УДАЛИТЬ ВСЕ СПРАЙТЫ В КА
 
 msgid "Picture Shooter"
 msgstr "Picture Shooter"
+
+#~ msgid "UI_SETTINGS_PIXELATION_FACTOR"
+#~ msgstr "Уровень пикселизации"
 
 #~ msgid "UI_IMPORT"
 #~ msgstr "ИМПОРТИРОВАТЬ"

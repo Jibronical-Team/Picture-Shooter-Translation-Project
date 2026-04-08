@@ -119,12 +119,32 @@ msgid "UI_SETTINGS_USE_VSYNC"
 msgstr "Vsync"
 
 #: scenes/menu/settings.tscn
-msgid "UI_SETTINGS_PIXELATION_FACTOR"
-msgstr "Pixelation Amount"
-
-#: scenes/menu/settings.tscn
 msgid "UI_SETTINGS_ANISOTROPIC_F"
 msgstr "Anisotropic Filtering"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_PC_RESOLUTION"
+msgstr "Resolution"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_ANDROID_RESOLUTION"
+msgstr "Render Quality"
+
+#: scenes/menu/settings.tscn
+msgid "UI_ANDROID_RENDER_HIGH_QUALITY"
+msgstr "High"
+
+#: scenes/menu/settings.tscn
+msgid "UI_ANDROID_RENDER_MEDIUM_QUALITY"
+msgstr "Medium"
+
+#: scenes/menu/settings.tscn
+msgid "UI_ANDROID_RENDER_LOW_QUALITY"
+msgstr "Low"
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_RESOLUTION_UI_NOTE"
+msgstr "This setting does not affect the quality of UI."
 
 #: scenes/menu/settings.tscn
 msgid "UI_SETTINGS_SOUND_LABEL"
@@ -283,6 +303,9 @@ msgstr "YOU ARE GOING TO DELETE ALL SPRITES IN THIS CATEGORY"
 
 msgid "Picture Shooter"
 msgstr "Picture Shooter"
+
+#~ msgid "UI_SETTINGS_PIXELATION_FACTOR"
+#~ msgstr "Pixelation Amount"
 
 #~ msgid "UI_IMPORT"
 #~ msgstr "IMPORT"

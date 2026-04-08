@@ -116,11 +116,31 @@ msgid "UI_SETTINGS_USE_VSYNC"
 msgstr ""
 
 #: scenes/menu/settings.tscn
-msgid "UI_SETTINGS_PIXELATION_FACTOR"
+msgid "UI_SETTINGS_ANISOTROPIC_F"
 msgstr ""
 
 #: scenes/menu/settings.tscn
-msgid "UI_SETTINGS_ANISOTROPIC_F"
+msgid "UI_SETTINGS_PC_RESOLUTION"
+msgstr ""
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_ANDROID_RESOLUTION"
+msgstr ""
+
+#: scenes/menu/settings.tscn
+msgid "UI_ANDROID_RENDER_HIGH_QUALITY"
+msgstr ""
+
+#: scenes/menu/settings.tscn
+msgid "UI_ANDROID_RENDER_MEDIUM_QUALITY"
+msgstr ""
+
+#: scenes/menu/settings.tscn
+msgid "UI_ANDROID_RENDER_LOW_QUALITY"
+msgstr ""
+
+#: scenes/menu/settings.tscn
+msgid "UI_SETTINGS_RESOLUTION_UI_NOTE"
 msgstr ""
 
 #: scenes/menu/settings.tscn
